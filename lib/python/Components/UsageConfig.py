@@ -691,6 +691,7 @@ def InitUsageConfig():
 		("ara", _("Arabic")),
 		("eus baq", _("Basque")),
 		("bul", _("Bulgarian")),
+                ("chi zho", _("Chinese")),
 		("hrv", _("Croatian")),
 		("ces cze", _("Czech")),
 		("dan", _("Danish")),
