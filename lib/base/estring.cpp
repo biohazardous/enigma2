@@ -371,6 +371,8 @@ std::string convertDVBUTF8(const unsigned char *data, int len, int table, int ts
 {
 	if (!len)
 		return "";
+        if (table == 88)
+                return std::string((char*)data, len);
 
 	int i=0, t=0;
 
